@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import './Home.css';
 
 function Home() {
   return (
     <>
       <div className="">
-        <div id="carouselExample" style={{backgroundImage:'radial-gradient(circle,transparent -10%, rgb(232, 42, 48))'}} className="carousel slide">
+        <div id="carouselExample" style={{ backgroundImage: 'radial-gradient(circle,transparent -10%, rgb(232, 42, 48))' }} className="carousel slide">
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img style={{ objectFit: 'contain' }} src={"https://as1.ftcdn.net/v2/jpg/07/79/61/38/1000_F_779613858_4AteoYrD37QQiLpyBV1wqojpxLcb6RNy.jpg"} height="500" className="d-block w-100" alt="..." />
@@ -27,25 +28,25 @@ function Home() {
         </div>
       </div>
 
-
-      <div className="container">
+      <div className="container my-4">
+        <h1 className="text-center mb-4">Explore Our Cuisines</h1>
         <div className="row">
           <div className="col-3">
-            <Link className="mt-3 btn btn-primary" to='/southindian'>South Indian</Link>
+            <Link className="mt-3 btn btn-primary btn-lg w-100" to='/southindian'>South Indian</Link>
           </div>
           <div className="col-3">
-            <Link className="mt-3 btn btn-primary" to='/Gujrati'>Gujrati</Link>
+            <Link className="mt-3 btn btn-primary btn-lg w-100" to='/gujrati'>Gujrati</Link>
           </div>
           <div className="col-3">
-            <Link className="mt-3 btn btn-primary" to='/punjabi'>Punjabi</Link>
+            <Link className="mt-3 btn btn-primary btn-lg w-100" to='/punjabi'>Punjabi</Link>
           </div>
           <div className="col-3">
-            <Link className="mt-3 btn btn-primary" to='/chinese'>Chinese</Link>
+            <Link className="mt-3 btn btn-primary btn-lg w-100" to='/chinese'>Chinese</Link>
           </div>
         </div>
       </div>
     </>
-  )
+  );
 }
 
 export default Home;

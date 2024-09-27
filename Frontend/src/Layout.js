@@ -1,30 +1,30 @@
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, NavLink } from "react-router-dom";
 
 function Layout() {
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">Navbar</a>
+          <Link className="navbar-brand" to="/">Just Order</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to='/home'>Home</Link>
+                <NavLink className="nav-link" to='/home' activeClassName="active" aria-current="page">Home</NavLink>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to='/southindian'>South Indian</Link>
+                <NavLink className="nav-link" to='/southindian' activeClassName="active">South Indian</NavLink>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to='/Gujrati'>Gujrati</Link>
+                <NavLink className="nav-link" to='/gujrati' activeClassName="active">Gujrati</NavLink>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to='/punjabi'>Punjabi</Link>
+                <NavLink className="nav-link" to='/punjabi' activeClassName="active">Punjabi</NavLink>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to='/chinese'>Chinese</Link>
+                <NavLink className="nav-link" to='/chinese' activeClassName="active">Chinese</NavLink>
               </li>
             </ul>
           </div>
@@ -41,4 +41,5 @@ function Layout() {
     </>
   );
 }
+
 export default Layout;

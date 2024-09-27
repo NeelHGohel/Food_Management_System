@@ -4,7 +4,7 @@ import Layout from './Layout';
 import Home from './pages/home';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Gujrati from './pages/Gujrati';
-import Chinese from './pages/Chinesse';
+import Chinese from './pages/Chinese';
 import Punjabi from './pages/Punjabi';
 import SouthIndian from './pages/SouthIndian';
 
