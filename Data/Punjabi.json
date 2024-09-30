@@ -1,0 +1,64 @@
+[{
+  "FoodName": "Chole Bhature",
+  "FoodPrice": "₹100",
+  "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/1072270610/display_1500/stock-photo-chole-bhature-or-chick-pea-curry-and-fried-puri-served-in-terracotta-crockery-over-white-1072270610.jpg",
+  "FoodDescryption": "Spicy chickpeas served with deep-fried bread, known as bhature, usually accompanied by pickles and onions.",
+  "FoodID": "1"
+},
+{
+  "FoodName": "Amritsari Kulcha",
+  "FoodPrice": "₹70",
+  "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2494714521/display_1500/stock-photo-famous-indian-punjabi-food-amritsari-kulcha-2494714521.jpg",
+  "FoodDescryption": "Stuffed flatbread, typically filled with spiced potatoes or paneer, served with chole and raita.",
+  "FoodID": "2"
+},
+{
+  "FoodName": "Paneer Tikka",
+  "FoodPrice": "₹280",
+  "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2205055391/display_1500/stock-photo-paneer-butter-masala-served-with-naan-bread-onion-rings-and-lemon-on-a-black-background-with-space-2205055391.jpg",
+  "FoodDescryption": " Marinated paneer cubes grilled and served with mint chutney.",
+  "FoodID": "3"
+},
+{
+  "FoodName": "Dal Makhani",
+  "FoodPrice": "₹250",
+  "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2507826649/display_1500/stock-photo-dal-makhani-is-an-indian-dish-originating-in-delhi-a-relatively-modern-variation-of-traditional-2507826649.jpg",
+  "FoodDescryption": "Creamy black lentils slow-cooked with butter and spices, often served with naan or rice.",
+  "FoodID": "4"
+},
+{
+  "FoodName": "Lassi",
+  "FoodPrice": "₹80",
+  "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2288527407/display_1500/stock-photo-sweet-lassi-served-in-a-glass-cup-garnished-with-saffron-almonds-and-pistachios-2288527407.jpg",
+  "FoodDescryption": " A refreshing yogurt-based drink, available in sweet or salty variations.",
+  "FoodID": "5"
+},
+{
+  "FoodName": "Aloo Paratha",
+  "FoodPrice": "₹65",
+  "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/1206917896/display_1500/stock-photo-delicious-indian-vegan-food-allo-paratha-stuffe-bread-with-spiced-mashed-potatoes-1206917896.jpg",
+  "FoodDescryption": "Whole wheat flatbread stuffed with spiced potatoes, often served with yogurt and pickles.",
+  "FoodID": "6"
+},
+{
+  "FoodName": "Tandoori Roti",
+  "FoodPrice": "₹35",
+  "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2309959163/display_1500/stock-photo-pita-bread-or-tandoori-roti-served-in-basket-isolated-on-background-top-view-of-middle-east-and-2309959163.jpg",
+  "FoodDescryption": "Whole wheat flatbread cooked in a tandoor, served with various curries.",
+  "FoodID": "7"
+},
+{
+
+  "FoodName": "Palak Paneer",
+  "FoodPrice": "₹200",
+  "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2507732559/display_1500/stock-photo-indian-palak-paneer-a-creamy-spinach-and-cheese-curry-served-in-a-traditional-copper-dish-2507732559.jpg",
+  "FoodDescryption": "Paneer cubes cooked in a spiced spinach gravy, often served with roti or rice.",
+  "FoodID": "8"
+},
+{
+  "FoodName": "Pulao",
+  "FoodPrice": "₹170",
+  "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2482415883/display_1500/stock-photo-indian-veg-biryani-veg-pulav-indian-vegetable-pulav-biriyani-vegetable-biriyani-2482415883.jpg",
+  "FoodDescryption": "Aromatic basmati rice cooked with mixed vegetables, spices, and sometimes garnished with fried onions and nuts.",
+  "FoodID": "9"
+}]

@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import Swal from 'sweetalert2'; // Import SweetAlert
+import Swal from 'sweetalert2';
 import './combine.css';
 
 function Chinese() {
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+    const [cart, setCart] = useState([]);
 
-    const apiUrl = "https://6672c8fa6ca902ae11b1c68c.mockapi.io/Faculty";
+    const apiUrl = "http://localhost:5000/chinese";
 
     useEffect(() => {
         const fetchData = async () => {
@@ -30,10 +30,30 @@ function Chinese() {
     }, []);
 
     const handleAddToCart = (dish) => {
+        setCart([...cart, dish]);
         Swal.fire({
-            title: `${dish.FacultyName} added to cart!`,
+            title: `${dish.FoodName} added to cart!`,
             icon: 'success',
             confirmButtonText: 'Cool'
+        });
+    };
+
+    const handleDelete = (dish) => {
+        Swal.fire({
+            title: `Are you sure you want to delete ${dish.FoodName}?`,
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Yes, delete it!',
+            cancelButtonText: 'Cancel'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                setData(data.filter(item => item.FoodID !== dish.FoodID));
+                Swal.fire(
+                    'Deleted!',
+                    `${dish.FoodName} has been deleted.`,
+                    'success'
+                );
+            }
         });
     };
 
@@ -47,26 +67,35 @@ function Chinese() {
 
     return (
         <div className="container">
-            <h1 className="text-center my-4">Delicious Chinese Dishes</h1>
+            <h1 className="text-center my-3">Delicious Chinese Dishes</h1>
             <div className="row">
                 {data.length > 0 ? (
                     data.map((dish) => (
-                        <div className="col-md-4 col-sm-6 my-2" key={dish.FacultyID}>
+                        <div className="col-md-4 col-sm-6 my-2" key={dish.FoodID}>
                             <div className="card shadow-lg border-light transition">
                                 <img
-                                    src={dish.FacultyImage}
-                                    alt={dish.FacultyName}
+                                    src={dish.FoodIMG}
+                                    alt={dish.FoodName}
                                     className="card-img-top dish-image"
                                 />
                                 <div className="card-body text-center">
-                                    <h5 className="card-title font-weight-bold">{dish.FacultyName}</h5>
-                                    <p className="card-text text-muted">ID: {dish.FacultyID}</p>
-                                    <button 
-                                        className="btn btn-danger" 
-                                        onClick={() => handleAddToCart(dish)}
-                                    >
-                                        Add to Cart
-                                    </button>
+                                    <h2 className="card-title font-weight-bold">{dish.FoodName}</h2>
+                                    <h5 className="card font-weight-bold">{dish.FoodPrice}</h5>
+                                    <p className="card-text text-muted">{dish.FoodDescryption}</p>
+                                    <div className="d-flex justify-content-center">
+                                        <button
+                                            className="btn btn-success mr-2"
+                                            onClick={() => handleAddToCart(dish)}
+                                        >
+                                            Add to Cart
+                                        </button>
+                                        <button
+                                            className="btn btn-danger"
+                                            onClick={() => handleDelete(dish)}
+                                        >
+                                            Delete
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>

@@ -1,0 +1,72 @@
+[
+    {
+        "FoodName": "Fafda ",
+        "FoodPrice": "₹100",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2385399547/display_1500/stock-photo-crispy-fafda-with-sweet-jalebi-is-an-indian-snack-most-popular-in-gujarat-selective-focus-2385399547.jpg",
+        "FoodDescryption": "Crispy fried gram flour strips, often served with jalebi.",
+        "FoodID": "1"
+    },
+    {
+        "FoodName": "Undhiyu",
+        "FoodPrice": "₹55",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/1515568391/display_1500/stock-photo-undhiyu-is-a-gujarati-mixed-vegetable-dish-specialty-of-surat-india-served-in-a-bowl-with-or-1515568391.jpg",
+        "FoodDescryption": "Mixed vegetable curry with spices, traditionally cooked upside down.",
+        "FoodID": "2"
+    },
+    {
+        "FoodName": "Dhokali",
+        "FoodPrice": "₹55",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2226301847/display_1500/stock-photo-the-saurashtra-region-of-gujarat-is-popular-for-its-kathiawadi-cuisine-the-food-here-is-spicy-and-2226301847.jpg",
+        "FoodDescryption": "A flavorful curry featuring tender pieces of spiced dhokli simmered in a rich, tangy lentil and vegetable gravy, perfect for a comforting meal.",
+        "FoodID": "3"
+    },
+    {
+        "FoodName": "Sev-Tameta nu Shaak",
+        "FoodPrice": "₹55",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/1167169540/display_1500/stock-photo-foosev-tameta-nu-shaak-d-set-dish-from-southern-india-gujarati-style-sweet-and-sour-tomato-curry-1167169540.jpg",
+        "FoodDescryption": "Tomato curry topped with crunchy sev.",
+        "FoodID": "4"
+    },
+    {
+        "FoodName": "Khichdi",
+        "FoodPrice": "₹40",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2450864361/display_1500/stock-photo-healthy-quinoa-dal-khichdi-made-with-quinoa-lentils-veggies-and-spices-this-quinoa-dal-khichdi-2450864361.jpg",
+        "FoodDescryption": "Comforting rice and lentil dish, often served with ghee.",
+        "FoodID": "5"
+    },
+    {
+        "FoodName": "Fulka Rotali",
+        "FoodPrice": "₹8",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/1744983026/display_1500/stock-photo-phulka-or-indian-phooli-air-filled-roti-or-indian-bread-or-small-wheat-chapati-rolled-cooked-1744983026.jpg",
+        "FoodDescryption": "Soft, unleavened whole wheat flatbreads, perfect for scooping up curries.",
+        "FoodID": "6"
+    },
+    {
+        "FoodName": "Rotla",
+        "FoodPrice": "₹20",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2129324732/display_1500/stock-photo-indian-gujarati-traditional-food-roti-rotla-or-indian-flat-bread-2129324732.jpg",
+        "FoodDescryption": "Thick, rustic millet flatbreads with a nutty flavor, ideal for pairing with ghee or jaggery.",
+        "FoodID": "6"
+    },
+    {
+        "FoodName": "Basundi",
+        "FoodPrice": "₹60",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/1219756183/display_1500/stock-photo-basundi-or-rabri-is-an-indian-sweet-popular-in-gujarat-and-maharashtra-it-is-a-sweetened-condensed-1219756183.jpg",
+        "FoodDescryption": "Thickened milk dessert flavored with cardamom and nuts.",
+        "FoodID": "8"
+    },
+    {
+        "FoodName": "Gulab Jamun ",
+        "FoodPrice": "₹20",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2503257547/display_1500/stock-photo-gulab-jamun-deep-fried-dumplings-soaked-in-a-fragrant-sugar-syrup-flavored-with-cardamom-rose-2503257547.jpg",
+        "FoodDescryption": " Soft, syrup-soaked dough balls.",
+        "FoodID": "9"
+    },
+    {
+        "FoodName": "Masala Chaas ",
+        "FoodPrice": "₹20",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2440555719/display_1500/stock-photo-buttermilk-drink-served-in-glass-cups-2440555719.jpg",
+        "FoodDescryption": "Spiced buttermilk drink.",
+        "FoodID": "10"
+    }
+]

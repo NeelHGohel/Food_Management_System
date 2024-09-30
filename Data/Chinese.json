@@ -1,0 +1,65 @@
+[
+    {
+        "FoodName": "Hot-Sour Soup",
+        "FoodPrice": "₹",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2488603207/display_1500/stock-photo-top-view-of-hot-and-sour-soup-in-a-bowl-isolated-on-white-background-2488603207.jpg",
+        "FoodDescryption": "A thick, creamy soup made with sweet corn, vegetables, and sometimes chicken, often garnished with spring onions.",
+        "FoodID": "1"
+    },
+    {
+        "FoodName": "Manchurian",
+        "FoodPrice": "₹",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2490980725/display_1500/stock-photo-veg-manchurian-vegetable-balls-dipped-in-sauces-and-ketchups-in-white-plate-2490980725.jpg",
+        "FoodDescryption": "Deep-fried vegetable or meat balls tossed in a tangy, spicy sauce, served as dry or with gravy.",
+        "FoodID": "2"
+    },
+    {
+        "FoodName": "Paneer Tikka Masala",
+        "FoodPrice": "₹",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2168261981/display_1500/stock-photo-paneer-tikka-masala-home-made-delhi-2168261981.jpg",
+        "FoodDescryption": "Grilled paneer cubes simmered in a rich, spiced tomato-based gravy, combining Indian flavors with Chinese influence.",
+        "FoodID": "3"
+    },
+    {
+        "FoodName": "Spring Rolls",
+        "FoodPrice": "₹",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2437629083/display_1500/stock-photo-savoury-spring-rolls-served-on-a-stone-plate-with-dipping-sauce-2437629083.jpg",
+        "FoodDescryption": "Crispy rolls filled with a mixture of vegetables or meat, served with a tangy dipping sauce.",
+        "FoodID": "4"
+    },
+    {
+        "FoodName": "Hakka Noodles",
+        "FoodPrice": "₹",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2310202585/display_1500/stock-photo-chicken-hakka-noodles-in-bowl-on-wooden-background-2310202585.jpg",
+        "FoodDescryption": "Stir-fried noodles with vegetables and sometimes chicken or shrimp, flavored with soy sauce and spices.",
+        "FoodID": "5"
+    },
+    {
+        "FoodName": "Schezwan Fried Rice",
+        "FoodPrice": "₹",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2502332081/display_1500/stock-photo-chicken-fried-rice-schezwan-spicy-fried-rice-in-black-bowl-with-garnish-served-with-soy-sauce-2502332081.jpg",
+        "FoodDescryption": "Spicy fried rice mixed with vegetables and Schezwan sauce, often served with an Indo-Chinese curry or dry Manchurian.",
+        "FoodID": "6"
+    },
+    {
+        "FoodName": "Momos",
+        "FoodPrice": "₹",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2392568061/display_1500/stock-photo-steamed-nepali-dumpling-momo-with-sauce-stuffed-chicken-meat-seafood-or-vegetables-2392568061.jpg",
+        "FoodDescryption": "Steamed or fried dumplings filled with spiced vegetables or meat, often served with a tangy dipping sauce.",
+        "FoodID": "7"
+    },
+    {
+        "FoodName": "Veg Schezwan Noodles",
+        "FoodPrice": "₹",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/1251150865/display_1500/stock-photo-schezwan-noodles-or-vegetable-hakka-noodles-or-chow-mein-is-a-popular-indo-chinese-recipes-served-1251150865.jpg",
+        "FoodDescryption": "Noodles stir-fried with vegetables and Schezwan sauce for a spicy kick.",
+        "FoodID": "8"
+    },
+    {
+        "FoodName": "Chili Paneer",
+        "FoodPrice": "₹",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2093440627/display_1500/stock-photo-chilli-paneer-dry-is-made-using-cottage-cheese-indo-chinese-food-2093440627.jpg",
+        "FoodDescryption": "Fried paneer cubes coated in a spicy sauce with bell peppers and onions, perfect as an appetizer.",
+        "FoodID": "9"
+    }
+]
