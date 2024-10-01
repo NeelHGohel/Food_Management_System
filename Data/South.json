@@ -1,16 +1,16 @@
 [
     {
-        "FoodName": "",
+        "FoodName": "Idli",
         "FoodPrice": "₹",
         "FoodIMG": "",
-        "FoodDescryption": "",
+        "FoodDescryption": "Soft, steamed rice cakes served with coconut chutney and sambar.",
         "FoodID": "1"
     },
     {
-        "FoodName": "",
+        "FoodName": "Dosa",
         "FoodPrice": "₹",
         "FoodIMG": "",
-        "FoodDescryption": "",
+        "FoodDescryption": "Thin, crispy crepes made from fermented rice and lentil batter, often filled with spiced potatoes.",
         "FoodID": "2"
     },
     {

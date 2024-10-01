@@ -85,7 +85,10 @@ function Gujrati() {
                                     <div className="d-flex justify-content-center">
                                         <button
                                             className="btn btn-success mr-2"
-                                            onClick={() => handleAddToCart(dish)}
+                                            onClick={() =>{
+                                                handleAddToCart(dish)
+                                                
+                                            }}
                                         >
                                             Add to Cart
                                         </button>
