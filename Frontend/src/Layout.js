@@ -34,7 +34,7 @@ function Layout() {
               <li className="nav-item">
                 <NavLink className="nav-link" to='/chinese' activeClassName="active">Chinese</NavLink>
               </li>
-              </ul>
+            </ul>
           </div>
         </div>
       </nav>

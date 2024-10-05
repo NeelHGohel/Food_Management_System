@@ -2,14 +2,14 @@ const express = require('express');
 const mongoose = require('mongoose');
 const chinese = require('./models/Chinese');
 const gujrati = require('./models/Gujrati');
-const punjabi = require('./models/punjabii'); // Ensure the filename is correct
+const punjabi = require('./models/punjabii');
 const southIndian = require('./models/SouthIndian');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
 const connectionString = "mongodb+srv://Gohel_Neel:Neel%40123@cluster0.ndexd.mongodb.net/Food_Management";
 
-mongoose.connect(connectionString , { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(connectionString, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
         console.log('Connected to MongoDB');
 
@@ -18,6 +18,8 @@ mongoose.connect(connectionString , { useNewUrlParser: true, useUnifiedTopology:
         app.use(express.json());
         app.use(bodyParser.urlencoded({ extended: false }));
 
+
+        //Chinese
         // Get all foods
         app.get('/chinese', async (req, res) => {
             try {
@@ -84,6 +86,10 @@ mongoose.connect(connectionString , { useNewUrlParser: true, useUnifiedTopology:
                 res.status(500).send({ message: 'Server error' });
             }
         });
+
+
+
+        //Gujrati
         app.get('/gujrati', async (req, res) => {
             try {
                 const foods = await gujrati.find();
@@ -149,7 +155,11 @@ mongoose.connect(connectionString , { useNewUrlParser: true, useUnifiedTopology:
                 res.status(500).send({ message: 'Server error' });
             }
         });
-        app.get('/punjabi', async (req, res) => { // Changed endpoint back to /punjabi
+
+
+
+        //Punjabi
+        app.get('/punjabi', async (req, res) => {
             try {
                 const foods = await punjabi.find();
                 res.send(foods);
@@ -214,6 +224,10 @@ mongoose.connect(connectionString , { useNewUrlParser: true, useUnifiedTopology:
                 res.status(500).send({ message: 'Server error' });
             }
         });
+
+
+
+        //South-Indian
         app.get('/southIndian', async (req, res) => {
             try {
                 const foods = await southIndian.find();

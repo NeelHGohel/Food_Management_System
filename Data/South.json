@@ -1,65 +1,65 @@
 [
     {
         "FoodName": "Idli",
-        "FoodPrice": "₹",
-        "FoodIMG": "",
+        "FoodPrice": "₹50",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2458190545/display_1500/stock-photo-idly-or-idli-south-indian-main-breakfast-2458190545.jpg",
         "FoodDescryption": "Soft, steamed rice cakes served with coconut chutney and sambar.",
         "FoodID": "1"
     },
     {
         "FoodName": "Dosa",
-        "FoodPrice": "₹",
-        "FoodIMG": "",
+        "FoodPrice": "₹120",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/1763609159/display_1500/stock-photo-dosa-best-south-indian-breakfast-with-chutney-1763609159.jpg",
         "FoodDescryption": "Thin, crispy crepes made from fermented rice and lentil batter, often filled with spiced potatoes.",
         "FoodID": "2"
     },
     {
-        "FoodName": "",
-        "FoodPrice": "₹",
-        "FoodIMG": "",
-        "FoodDescryption": "",
+        "FoodName": "Sambar",
+        "FoodPrice": "₹20",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2365065119/display_1500/stock-photo-idlis-dipped-in-sambar-presented-in-a-white-bowl-alongside-spoons-on-a-tabletop-2365065119.jpg",
+        "FoodDescryption": "A hearty lentil stew with vegetables and a blend of spices, typically served with rice or dosas.",
         "FoodID": "3"
     },
     {
-        "FoodName": "",
-        "FoodPrice": "₹",
-        "FoodIMG": "",
-        "FoodDescryption": "",
+        "FoodName": "Mendu Vada",
+        "FoodPrice": "₹50",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2492493443/display_1500/stock-photo--wish-mendu-vada-sambhar-dish-2492493443.jpg",
+        "FoodDescryption": "Savory, deep-fried lentil doughnuts that are crispy on the outside and soft inside, often served with chutney.",
         "FoodID": "4"
     },
     {
-        "FoodName": "",
-        "FoodPrice": "₹",
-        "FoodIMG": "",
-        "FoodDescryption": "",
+        "FoodName": "Upma",
+        "FoodPrice": "₹100",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2479054801/display_1500/stock-photo--breakfast-easy-upma-rava-upma-2479054801.jpg",
+        "FoodDescryption": "A savory dish made from semolina, sautéed with vegetables, mustard seeds, and spices.",
         "FoodID": "5"
     },
     {
-        "FoodName": "",
-        "FoodPrice": "₹",
-        "FoodIMG": "",
-        "FoodDescryption": "",
+        "FoodName": "Rasam",
+        "FoodPrice": "₹60",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2490612977/display_1500/stock-photo-rasam-with-tangy-tamarind-broth-and-spices-top-view-isolated-on-white-background-2490612977.jpg",
+        "FoodDescryption": "A tangy, spiced soup made from tamarind and tomatoes, usually enjoyed with rice.",
         "FoodID": "6"
     },
     {
-        "FoodName": "",
-        "FoodPrice": "₹",
-        "FoodIMG": "",
-        "FoodDescryption": "",
+        "FoodName": "Biryani",
+        "FoodPrice": "₹140",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2506997953/display_1500/stock-photo-indian-meat-biryani-spicy-mutton-biryani-food-photography-2506997953.jpg",
+        "FoodDescryption": "A fragrant rice dish layered with marinated meat or vegetables, seasoned with aromatic spices.",
         "FoodID": "7"
     },
     {
-        "FoodName": "",
-        "FoodPrice": "₹",
-        "FoodIMG": "",
-        "FoodDescryption": "",
+        "FoodName": "Pongal",
+        "FoodPrice": "₹100",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/2504982235/display_1500/stock-photo-ven-pongal-khara-pongal-traditional-indian-savoury-rice-dish-made-during-celebrating-pongal-2504982235.jpg",
+        "FoodDescryption": "A comforting rice and lentil dish, often flavored with black pepper, cumin, and ghee.",
         "FoodID": "8"
     },
     {
-        "FoodName": "",
-        "FoodPrice": "₹",
-        "FoodIMG": "",
-        "FoodDescryption": "",
+        "FoodName": "Appam",
+        "FoodPrice": "₹80",
+        "FoodIMG": "https://www.shutterstock.com/shutterstock/photos/1948246939/display_1500/stock-photo-suji-appe-or-appam-served-on-a-appam-pan-with-peanuts-and-tamarind-chutney-1948246939.jpg",
+        "FoodDescryption": "Soft, fermented rice pancakes with a crispy edge, usually served with sweet coconut milk or curry.",
         "FoodID": "9"
     }
 ]
